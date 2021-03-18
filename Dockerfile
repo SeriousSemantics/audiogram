@@ -22,5 +22,4 @@ WORKDIR /home/audiogram/audiogram
 RUN set NODE_OPTIONS=--max_old_space_size=24576
 RUN export CXX=clang++
 RUN npm install --clang=1
-RUN node --max-old-space-size=24576 ./audiogram/waveform.js
-CMD npm start
+CMD node --max_old_space_size=24576 /usr/bin/npm start
