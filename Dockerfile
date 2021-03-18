@@ -19,5 +19,6 @@ RUN git clone https://github.com/SeriousSemantics/audiogram.git
 WORKDIR /home/audiogram/audiogram
 
 # Install dependencies
+RUN set NODE_OPTIONS=--max_old_space_size=24576
 RUN npm install
 CMD npm start
