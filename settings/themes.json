@@ -2,8 +2,8 @@
   "default": {
     "width": 1280,
     "height": 720,
-    "framesPerSecond": 20,
-    "maxDuration": 300,
+    "framesPerSecond": 30,
+    "maxDuration": 3000000,
     "samplesPerFrame": 128,
     "pattern": "wave",
     "waveTop": 150,
